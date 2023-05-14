@@ -1,0 +1,203 @@
+.main_right{
+    background-color: #fff;
+    min-width: 300px;
+    max-height: 600px;
+   margin-top: 20px;
+  text-align: center;
+    display: flex;
+    flex-direction:column;
+  
+    margin-right: 3rem;
+}
+.progress_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: center;
+    text-align: center;
+}
+.progress_bar > p >span{
+    background-color: #0096FF ;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+ ;
+}
+.main_right .head{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    opacity: 0.8;
+    font-size: 22px;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+}
+.input_info {
+    /* background-color: lightgray; */
+    width: 97%;
+    margin: 7px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    
+}
+.input_info p{
+    font-size: 13px;
+}
+.cost{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.text{
+    font-weight: 900;
+    opacity: .6;
+}
+.summary_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+#Fee, #Offer .Offer_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 2px 13px; */
+    gap:10px;
+}
+#Offer{
+    color: #DE4313;
+    
+    border: 2px solid rgba(222, 68, 20, 1);
+    margin: 10px;
+    border-radius: 4px;
+    padding: 3px;
+}
+#Offer .Offer_date{
+    margin-right:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+#discount_fee{
+    color: black;
+    opacity: 0.7;
+}
+#GST{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 3px 16px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 14px;
+    gap: 20px;
+    
+    /* padding: 8px 1.7rem; */
+}
+#cancel{
+    padding: 6px 3.5rem;
+    border: 1px solid rgba(247, 113, 113, 1);
+    font-size: 15px;
+    color: #DE4313;
+    
+}
+#pay{
+    padding: 7px 3rem;
+    background: rgba(71, 186, 90);
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+
+
+}
+
+#paypic{
+    /* margin-top: px; */
+    margin-left: 10px;
+    padding: 4px;
+}
+.input_container_1,.input_container_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 8px;
+    border: 2px solid gray;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.input_container_1 p,.input_container_2 p{
+    font-size: 13px;
+}
+.input_container_1{
+    background-color: lightgray;
+    opacity: 0.4;
+}
+.input_container_2{
+    background-color:  #a7d3b8ce;
+border: 2px solid green;
+}
+#expire{
+position: absolute;
+top: 3px;
+left: 4rem;
+background-color: red;
+opacity: 0.7;
+z-index: 1;
+color: #fff;
+font-size: 13px;
+padding: 0px 15px;
+border-radius: 4px;
+}
+
+#recommended{
+    position: absolute;
+    top: 3.7rem;
+    left: 4rem;
+    background-color:green;
+    opacity: 0.7;
+    z-index: 1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0px 15px;  
+border-radius: 4px;
+border-top: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.Navbar{
+    background-color: #ffffff;
+}
+.Container{
+ /* margin-left: 2rem; */
+ margin: 0 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin: 1.2rem; */
+}
+.Left-Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+.Left-Content h2{
+    color: #0096FF;
+}
+.Courses,.Programs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    opacity: 0.8;
+}
+.Courses span , .Programs span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Right-Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* margin-bottom: ; */
+}
+
+.join-btn{
+outline: none;
+border: none;
+padding: 10px 25px;
+  
+    background-color:  rgba(0, 150, 255, 1) ;
+    border-radius: 50px;
+}
