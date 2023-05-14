@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Edyoda/static/css/main.2679a52a.css",
+    "main.js": "/Edyoda/static/js/main.db20e0b5.js",
+    "static/media/Back Ground.jpg": "/Edyoda/static/media/Back Ground.be751a684aca3f0027a0.jpg",
+    "index.html": "/Edyoda/index.html",
+    "main.2679a52a.css.map": "/Edyoda/static/css/main.2679a52a.css.map",
+    "main.db20e0b5.js.map": "/Edyoda/static/js/main.db20e0b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2679a52a.css",
+    "static/js/main.db20e0b5.js"
+  ]
+}
